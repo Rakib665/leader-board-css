@@ -104,7 +104,7 @@ height: 104px;
 }
 /* media queries */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     .container{
         width: 100%;
     }
@@ -112,10 +112,10 @@ height: 104px;
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
-  }
+  } 
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 689px) {
+   @media only screen and (max-width: 992px) {
     .container{
         width: 100%;
     }
@@ -127,26 +127,9 @@ height: 104px;
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 991px) {
-    .container{
-        width: 100%;
-    }
-    .players,.blogs,.courses{
-        grid-template-columns: repeat(2, 1fr);
-        flex-direction: column;
-    }
-    
   } 
   
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .example {background: orange;}
-  } 
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
-  }
+  
+  
+  
